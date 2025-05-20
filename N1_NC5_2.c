@@ -6,10 +6,17 @@ int main(){
     char opcao = 'S';
     char nome[20] = "Jack";
 
-    printf("A idade do %s é: %d\n", nome, idade);
-    printf("A altura é: %.+-2f\n", altura);
-    printf("A opção é : %c\n" , opcao);
-    
+    printf("Digite sua idade: ");       
+    scanf("%d", &idade);
+    printf("Sua idade é: %d\n", idade);
+
+    printf("Digite sua altura: ");
+    scanf("%f", &altura);
+    printf("Sua altura é: %f\n", altura);
+
+    printf("Digite su nome: ");
+    scanf("%s", nome);
+    printf("Digite seu nome: %c\n", nome );
 
     /*
     \n serve para pular linha 
