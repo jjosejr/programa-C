@@ -1,10 +1,12 @@
 #include <stdio.h>
 
     int main() {
-        int idade  = 70;
-        if (idade 18 =>70){
+        int idade  = 30;
+
+        if (idade >= 30) {
         printf("Você E maior de idade\n");
+        }else{
+            printf("Você é menor de idade");
 
     }
-
 }
