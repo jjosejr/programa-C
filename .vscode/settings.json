@@ -1,5 +1,8 @@
 {
     "files.associations": {
-        "N5_NC5_6.C": "cpp"
+        "N5_NC5_6.C": "cpp",
+        "N8_NC8.C": "cpp",
+        "N4_NC5_4.C": "cpp",
+        "N6_NC5_7.C": "cpp"
     }
 }
